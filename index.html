@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Friend Appliacation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div> <H1>Best Friend Application Form</h1>
+        <img src="https://i1.faceprep.in/ProGrad/hello-minion.png
+        " alt="Hello Minion">
+        <p>Hey there, I need a new best friend ... because the last one escaped :)
+            Not my fault though I'm a little moody, but super cool!!!
+            <br><p id="skanda"> Wanna Be Fwiends???</p>
+        </p>
+        </div>
+        <form action="mailto:skandakk99@gmail.com?Subject=My Best Friend Application Form" method="POST" enctype="text/plain">
+            <label for="name">What's your name?</label>
+            <input type="text" id="name" name="name" placeholder="Enter your epic name here">
+            
+            <label for="nickname">What do you want me to call you as? </label>
+            <input type="text" name="nickname" id="nickname" placeholder="Your cool nickname"><br>
+            
+            <label for="age">Whats your age?</label>
+            <input type="number" name="age" id="age" min="9" max="17">
+            
+            <label for="superhero" >Whos your favorite superhero? </label><br>
+           <input type="checkbox" name="ironman" id="ironman">
+           <label for="ironman" >Ironman</label>
+           <input type="checkbox" name="batman" id="batman">
+           <label for="batman">Batman</label>
+           <input type="checkbox" name="superman" id="superman">
+           <label for="superman">Superman</label><br>
+           
+           <label for="Why" name="Why">Why do want to be friends with me?</label>
+           <textarea name="Why" id="Why" cols="30" rows="3.6">I want to be friends with you because</textarea>
+           <input id="skanda" type="submit" value="Lets be friends">
+        </form>
+    </section>
+</body>
+</html>
